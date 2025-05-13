@@ -50,3 +50,17 @@
     padding: 1rem;
   }
 }
+
+@media screen and (min-width:480px) and (max-width:915px) {
+  .Application{
+    width: 90%;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width:915px) and (max-width:1024px) {
+  .Application{
+    width: 100%;
+    height: 100vh;
+  }
+}
