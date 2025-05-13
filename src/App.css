@@ -31,3 +31,22 @@
   justify-content: space-between;
   padding: 2rem
 }
+
+@media screen and (max-width: 480px) {
+  #root{
+    padding: 0;
+  }
+
+  .Application{
+    width: 100%;
+    padding-top: 3rem;
+  }
+  .Application img{
+    margin-bottom: 3rem;
+  }
+  .App{
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}

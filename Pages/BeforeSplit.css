@@ -140,3 +140,20 @@ input[type='number']{
 .error{
   border: 2px solid red;
 }
+
+@media screen and (max-width:480px) {
+  .BSplit{
+    width: 100%
+  }
+  .SelectedTips{
+    column-gap: 5%;
+  }
+  .SelectedTipsText{
+    width: 47%;
+  }
+  .SelectedTips input {
+    width: 47%;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
