@@ -1,0 +1,50 @@
+.AfterSplit{
+  /* border: 3px solid; */
+  width: 50%;
+  background-color: hsl(183, 100%, 15%);
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+}
+
+.TipAmount, .TotalAmount{
+  /* border: 3px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.header{
+  color: white;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.person{
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+}
+.amount{
+  font-size: 3rem;
+  color: hsl(172, 67%, 45%);
+  font-weight: 900;
+}
+.Reset{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: rgb(13, 104, 109);
+  color: hsl(183, 100%, 15%);
+  /* opacity: 0.5; */
+}
+.Reset:hover{
+  background-color: #9fe8df;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+.billavailable {
+  background-color: hsl(172, 67%, 45%);
+}
